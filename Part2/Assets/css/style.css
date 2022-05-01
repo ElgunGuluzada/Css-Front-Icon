@@ -31,12 +31,11 @@ body {
     background: rgb(188, 111, 81);
 }
 
-.icon img{
-    margin: 20%;
-}
-
-img {
-    width: 60%;
+.icon i {
+    align-items: center;
+    font-size: 400%;
+    color: white;
+    padding: 29%;
 }
 
 .card h1 {
@@ -49,5 +48,24 @@ img {
     font-size: 1.5em;
     text-align: center;
     padding-bottom: 15%;
+    line-height: 1.5;
     color: rgb(113, 111, 108);
+}
+
+.previousPage {
+    padding: 20px 40px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    display: inline;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    background: linear-gradient(90deg, rgb(108, 43, 2) 0%, rgb(176, 72, 7) 25%, rgb(165, 98, 4) 85%, rgb(68, 24, 1) 100%);
+}
+
+.previousPage a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
 }

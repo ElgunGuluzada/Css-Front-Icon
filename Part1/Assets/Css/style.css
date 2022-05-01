@@ -4,20 +4,25 @@
     box-sizing: border-box;
 }
 
-body{
-    background: rgb(245,246,250);
+body {
+    background: rgb(238, 234, 232);
 }
 
 .card {
-
     width: 30%;
     margin: 4% 35%;
-    background: rgb(21, 61, 171);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* Elave effect */
+
+    /* transform: skewx(-15deg)  rotate(0deg) translatex(15px);
+    background: rgb(210, 166, 116);
+    box-shadow: inset 4px -3px 65px 17px rgb(125, 57, 1); */
+
+    /* Taskdaki effect  */
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 22px 12px 8px 2px;
 }
 
 .card .container {
-    background: rgb(255, 255, 255);
     color: aliceblue;
     text-align: center;
     padding: 10%;
@@ -30,7 +35,8 @@ body{
 .card .container .content span,
 .time,
 h6 {
-    color: rgb(48, 48, 48);
+    color: rgb(109, 105, 105);
+    letter-spacing: 1.2px;
 }
 
 .card .container h1 {
@@ -51,15 +57,36 @@ h6 {
     font-size: 15px;
 }
 
-.card .container .content .time{
+.card .container .content .time {
     padding: 5% 0;
 }
 
-.card .container span{
+.card .container span {
     font-size: 10px;
+    font-weight: 600;
+    color: rgb(109, 105, 105);
 }
 
 .card .container .footer {
-    color: rgb(48, 48, 48);
     margin-top: 5%;
+    font-style: italic;
+    letter-spacing: 1.3px;
+}
+
+.nextPage {
+    padding: 20px 40px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: inline;
+    background: linear-gradient(90deg, rgb(81, 78, 84) 0%, rgb(110, 103, 103) 50%, rgb(21, 21, 21) 100%);
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+
+.nextPage a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
 }
