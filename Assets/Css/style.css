@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(245,246,250);
+}
+
+.card {
+
+    width: 30%;
+    margin: 4% 35%;
+    background: rgb(21, 61, 171);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card .container {
+    background: rgb(255, 255, 255);
+    color: aliceblue;
+    text-align: center;
+    padding: 10%;
+}
+
+.header {
+    transform: rotate(-15deg);
+}
+
+.card .container .content span,
+.time,
+h6 {
+    color: rgb(48, 48, 48);
+}
+
+.card .container h1 {
+    color: rgb(48, 48, 48);
+    font-family: 'Lavishly Yours', cursive;
+    text-align: center;
+    justify-content: space-between;
+    line-height: 0.8;
+    font-style: italic;
+    font-size: 100px;
+    font-weight: 500;
+    padding-bottom: 15%;
+}
+
+
+.card .container .content h6 {
+    padding-bottom: 10%;
+    font-size: 15px;
+}
+
+.card .container .content .time{
+    padding: 5% 0;
+}
+
+.card .container span{
+    font-size: 10px;
+}
+
+.card .container .footer {
+    color: rgb(48, 48, 48);
+    margin-top: 5%;
+}
