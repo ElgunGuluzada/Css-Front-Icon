@@ -15,27 +15,28 @@ body {
 
 .card .container {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
-.card .container h1{
+.card .container h1 {
     margin: 0 30%;
     padding-top: 10%;
 }
 
-.icon{
+.icon {
     margin: 0 30%;
     align-items: center;
-    border-top-right-radius: 30% ;
-    border-bottom-left-radius: 30% ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
     background: rgb(188, 111, 81);
 }
 
-.icon i {
-    align-items: center;
-    font-size: 400%;
-    color: white;
-    padding: 25%;
+.icon img{
+    margin: 20%;
+}
+
+img {
+    width: 60%;
 }
 
 .card h1 {
@@ -43,11 +44,10 @@ body {
     font-weight: 500;
 }
 
-.container p{
-    opacity: 0.8;
+.container p {
     padding: 5%;
     font-size: 1.5em;
     text-align: center;
     padding-bottom: 15%;
-    color: rgb(113,111,108);
+    color: rgb(113, 111, 108);
 }
