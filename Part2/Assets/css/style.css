@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(245, 246, 250);
+}
+
+.card {
+    width: 100%;
+    padding: 4% 35%;
+}
+
+.card .container {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-top: 20%;
+}
+
+.card .container h1{
+    margin: 0 30%;
+    padding-top: 10%;
+}
+
+.icon{
+    margin: 0 30%;
+    align-items: center;
+    border-top-right-radius: 30% ;
+    border-bottom-left-radius: 30% ;
+    background: rgb(188, 111, 81);
+}
+
+.icon i {
+    align-items: center;
+    font-size: 400%;
+    color: white;
+    padding: 25%;
+}
+
+.card h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.container p{
+    opacity: 0.8;
+    padding: 5%;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 15%;
+    color: rgb(113,111,108);
+}
